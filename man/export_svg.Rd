@@ -19,7 +19,7 @@ in R instead of the browser.
 \examples{
 \dontrun{
  library(DiagrammeR)
- svg <- exportSVG(grViz('digraph{a->b; c->a; c->b; c->d;}'))
+ svg <- export_svg(grViz('digraph{a->b; c->a; c->b; c->d;}'))
 
  # this can then be used with htmltools and can save significantly
  # on size of output using svg rather than unrendered grViz
