@@ -16,7 +16,7 @@
 #' @importFrom V8 new_context
 #' @export export_svg
 
-exportSVG <- function(gv){
+export_svg <- function(gv){
 
   # Check to make sure that V8 is available
   if(!requireNamespace("V8")) stop("V8 is required to export.",
