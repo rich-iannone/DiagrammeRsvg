@@ -1,4 +1,4 @@
-Package: DiagrammeR_svg
+Package: DiagrammeRsvg
 Type: Package
 Title: Export DiagrammeR Graphviz Graphs as SVG
 Version: 0.1
