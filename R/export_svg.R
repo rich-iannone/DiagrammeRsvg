@@ -22,7 +22,7 @@ export_svg <- function(gv){
   if(!requireNamespace("V8")) stop("V8 is required to export.",
                                    call. = FALSE)
 
-  stopifnot(packageVersion("V8") >= "0.6")
+  stopifnot(packageVersion("V8") >= "0.9")
 
   # Check to make sure gv is grViz
   if(!inherits(gv, "grViz")) "gv must be a grViz htmlwidget."
