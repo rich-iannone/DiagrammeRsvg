@@ -12,7 +12,6 @@ Maintainer: Richard Iannone <riannone@me.com>
 Description: Allows for export of DiagrammeR `grViz` (Graphviz) objects to SVG.
 License: MIT + file LICENSE
 Imports:
-    htmlwidgets (>= 0.5),
     V8 (>= 0.10)
 URL: https://github.com/rich-iannone/DiagrammeR_svg
 RoxygenNote: 5.0.1
