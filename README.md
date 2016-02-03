@@ -7,4 +7,3 @@ To install the package, use this statement:
 ```R
 devtools::install_github('rich-iannone/DiagrammeR')
 ```
-
