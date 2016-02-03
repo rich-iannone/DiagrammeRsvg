@@ -15,7 +15,4 @@ Imports:
     htmlwidgets (>= 0.5),
     V8 (>= 0.10)
 URL: https://github.com/rich-iannone/DiagrammeR_svg
-Suggests:
-    knitr,
-    testthat
-RoxygenNote: 5.0.0
+RoxygenNote: 5.0.1
