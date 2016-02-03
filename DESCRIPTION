@@ -2,12 +2,10 @@ Package: DiagrammeRsvg
 Type: Package
 Title: Export DiagrammeR Graphviz Graphs as SVG
 Version: 0.1
-Date: 2015-12-02
-Authors@R: 
-      person(
+Date: 2016-02-02
+Authors@R: person(
         "Richard", "Iannone"
         , role = c("aut", "cre")
-        , comment = "R interface"
         , email = "riannone@me.com"
       )
 Maintainer: Richard Iannone <riannone@me.com>
