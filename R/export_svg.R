@@ -23,7 +23,7 @@ export_svg <- function(gv){
                                    call. = FALSE)
   
   # Ensure that the minimum version of V8 is 1.0
-  stopifnot(packageVersion("V8") >= "1.0")
+  stopifnot(packageVersion("V8") >= "0.10")
   
   # Check to make sure gv is grViz
   if(!inherits(gv, "grViz")) "gv must be a grViz htmlwidget."
