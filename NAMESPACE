@@ -2,3 +2,4 @@
 
 export(export_svg)
 importFrom(V8,new_context)
+importFrom(utils,packageVersion)
