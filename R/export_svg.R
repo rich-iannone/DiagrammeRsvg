@@ -38,11 +38,12 @@ export_svg <- function(gv){
   
   # Create the SVG file
   svg <- 
-    ct$call("Viz",
+    invisible(
+      ct$call("Viz",
             gv$x$diagram,
             "svg",
             gv$x$config$engine,
-            gv$x$config$options)
+            gv$x$config$options))
   
   return(svg)
 }
