@@ -21,5 +21,7 @@ Suggests:
     vctrs
 URL: https://github.com/rich-iannone/DiagrammeRsvg
 BugReports: https://github.com/rich-iannone/DiagrammeRsvg/issues
-RoxygenNote: 5.0.1
 VignetteBuilder: knitr
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.0.2
+Encoding: UTF-8
