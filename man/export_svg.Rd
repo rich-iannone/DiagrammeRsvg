@@ -27,4 +27,3 @@ in R instead of the browser.
  html_print(HTML(svg))
 }
 }
-

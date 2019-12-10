@@ -15,4 +15,6 @@ Imports:
     V8 (>= 1.0)
 URL: https://github.com/rich-iannone/DiagrammeRsvg
 BugReports: https://github.com/rich-iannone/DiagrammeRsvg/issues
-RoxygenNote: 5.0.1
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.0.2
+Encoding: UTF-8
