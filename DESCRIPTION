@@ -13,8 +13,15 @@ Description: Allows for export of DiagrammeR Graphviz objects to SVG.
 License: MIT + file LICENSE
 Imports:
     V8 (>= 1.0)
+Suggests:
+    DiagrammeR,
+    knitr,
+    rlang,
+    rmarkdown,
+    vctrs
 URL: https://github.com/rich-iannone/DiagrammeRsvg
 BugReports: https://github.com/rich-iannone/DiagrammeRsvg/issues
+VignetteBuilder: knitr
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.0.2
 Encoding: UTF-8
