@@ -14,9 +14,12 @@ License: MIT + file LICENSE
 Imports:
     V8 (>= 1.0)
 Suggests:
+    DiagrammeR,
     knitr,
     rlang,
+    rmarkdown,
     vctrs
 URL: https://github.com/rich-iannone/DiagrammeRsvg
 BugReports: https://github.com/rich-iannone/DiagrammeRsvg/issues
 RoxygenNote: 5.0.1
+VignetteBuilder: knitr
